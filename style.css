@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Roboto;
+
+    
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+background-image: url(image\ 1\ \(5\).png); height: 10vh;
+
+width: 1440px;
+height: 1024px;
+
+
+
+}
+.ul{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+
+}
+
+.ul:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+.li{
+background-color: rgba(0, 159, 245, 0.71);
+border: 1px solid  rgba(218, 211, 255, 1);
+ 
+width: 243px;
+height: 50px;
+top: 30px;
+left: 170px;
+border-radius: 10px;
+
+
+}
+.div_list{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+background-color: gold;
+border: 11px solid rgba(90, 85, 85, 1);
+padding: 10px 20px;
+border-radius: 30px;
+font-weight: bold;
+font-size: 16px;
+
+
+box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+.div_list:hover{
+    color: azure;
+    transition: 0.7s;
+}
+.sayko{
+display: flex;
+
+
+justify-content: space-around;
+text-align: justify;
+
+}
+
+
+.name{
+    background-color:    rgba(31, 31, 31, 1);
+    font-family: Roboto;
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+box-shadow: rgba(255, 194, 0, 1)    ;
+}
+.name:hover{
+    color: yellowgreen;
+    transition: 0.3s;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(255, 198, 17, 1);
+}
+.dim{
+    display: flex;
+   
+    gap: 37px;
+    padding: 15px 0;
+}
+.uli{
+    display: flex;
+    align-items: center;
+gap: 500px;
+    justify-content: end;
+}
+.uli a{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+}
+.uli a:hover{
+    color: brown;
+    transition: 0.8s;
+}
